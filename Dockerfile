@@ -12,6 +12,7 @@ RUN npm install
 
 COPY . ./
 
+# this actually does nothing, it just tells that this image uses port 3000.
 EXPOSE 3000
 
 # what command to run on starting container.
