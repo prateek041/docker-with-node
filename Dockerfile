@@ -10,6 +10,7 @@ COPY package.json .
 # install all the dependencies in the pachage.json file.
 RUN npm install
 
+# copy files in the container in build stage.
 COPY . ./
 
 # this actually does nothing, it just tells that this image uses port 3000.
