@@ -16,4 +16,4 @@ COPY . ./
 EXPOSE 3000
 
 # what command to run on starting container.
-CMD ["node", "index.js"]
+CMD ["npm", "run", "dev"]
