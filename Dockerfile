@@ -13,6 +13,10 @@ RUN npm install
 # copy files in the container in build stage.
 COPY . ./
 
+ENV PORT 3000
+
+EXPOSE $PORT
+
 # this actually does nothing, it just tells that this image uses port 3000.
 EXPOSE 3000
 
