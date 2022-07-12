@@ -21,4 +21,4 @@ EXPOSE $PORT
 EXPOSE 3000
 
 # what command to run on starting container.
-CMD ["npm", "run", "dev"]
+CMD ["node", "index.js"]
